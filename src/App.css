@@ -118,3 +118,11 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+/* Ensure AddEvent dropdown appears above other elements */
+.addeventatc_dropdown {
+  z-index: 9999 !important;
+}
+
+

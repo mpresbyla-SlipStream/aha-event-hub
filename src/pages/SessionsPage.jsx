@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import SearchBar from '../components/SearchBar'
 import SessionCard from '../components/SessionCard'
 
@@ -75,6 +75,12 @@ const SessionsPage = () => {
   }, {});
 
 
+
+  useEffect(() => {
+    if (window.addeventatc) {
+      window.addeventatc.refresh();
+    }
+  }, [filteredSessions]);
 
   return (
     <div className="p-4">
