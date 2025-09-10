@@ -41,7 +41,7 @@ function App() {
         onBack={() => setActiveTab('home')}
       />
       
-      <main className="flex-1 overflow-y-auto pb-16">
+      <main className="flex-1 overflow-y-auto pb-24">
         {renderCurrentPage()}
       </main>
       
