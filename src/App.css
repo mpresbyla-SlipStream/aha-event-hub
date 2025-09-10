@@ -122,7 +122,7 @@
 
 /* Ensure AddEvent dropdown appears above other elements */
 .addeventatc_dropdown {
-  z-index: 10 !important;
+  z-index: 10;
 }
 
 

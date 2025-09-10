@@ -10,7 +10,7 @@ const BottomNavigation = ({ activeTab, onTabChange }) => {
   ]
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 px-2 py-1 z-[999]">
+    <nav className="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 px-2 py-1 z-[1000]">
       <div className="flex justify-around">
         {tabs.map(({ id, icon: Icon, label }) => (
           <button
